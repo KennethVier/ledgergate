@@ -1,0 +1,25 @@
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+
+# n8n local/runtime state
+.n8n/
+
+# Local persistence
+data/
+postgres-data/
+
+# Logs
+*.log
+logs/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Temporary files
+*.tmp
+*.swp
